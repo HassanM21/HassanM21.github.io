@@ -1,0 +1,123 @@
+/* Styles for the body element */
+body {
+    position: relative; /* Sets the body as a reference point for absolutely positioned elements */
+}
+
+/* Styles for the social-title class */
+.social-title {
+    position: absolute; /* Positions the element relative to its nearest positioned ancestor */
+    top: 40px; /* Moves the element 40px from the top */
+    left: 3%; /* Moves the element 3% from the left */
+    font-size: 32px; /* Sets the font size to 32px */
+    color: darkblue; /* Sets the text color to dark blue */
+    font-weight: bold; /* Makes the text bold */
+}
+
+/* Styles for the what-is-it class */
+.what-is-it {
+    position: absolute; /* Positions the element relative to its nearest positioned ancestor */
+    top: 20px; /* Moves the element 20px from the top */
+    left: 50%; /* Centers the element horizontally at 50% of the container */
+    font-size: 30px; /* Sets the font size to 30px */
+    color: darkblue; /* Sets the text color to dark blue */
+}
+
+/* Styles for the operate class */
+.operate {
+    position: absolute; /* Positions the element relative to its nearest positioned ancestor */
+    top: 20px; /* Moves the element 20px from the top */
+    left: 80%; /* Positions the element 80% from the left */
+    font-size: 30px; /* Sets the font size to 30px */
+    color: darkblue; /* Sets the text color to dark blue */
+}
+
+/* Styles for the adv-dvt class */
+.adv-dvt {
+    position: absolute; /* Positions the element relative to its nearest positioned ancestor */
+    top: 60px; /* Moves the element 60px from the top */
+    left: 50%; /* Centers the element horizontally at 50% of the container */
+    font-size: 30px; /* Sets the font size to 30px */
+    color: darkblue; /* Sets the text color to dark blue */
+}
+
+/* Styles for the common-questions class */
+.common-questions {
+    position: absolute; /* Positions the element relative to its nearest positioned ancestor */
+    top: 60px; /* Moves the element 60px from the top */
+    left: 80%; /* Positions the element 80% from the left */
+    font-size: 30px; /* Sets the font size to 30px */
+    color: darkblue; /* Sets the text color to dark blue */
+}
+
+/* Styles for the intro class */
+.intro {
+    position: absolute; /* Positions the element relative to its nearest positioned ancestor */
+    top: 130px; /* Moves the element 130px from the top */
+    left: 0%; /* Aligns the element to the left edge */
+    font-size: 30px; /* Sets the font size to 30px */
+    color: darkblue; /* Sets the text color to dark blue */
+}
+
+/* Styles for paragraph elements */
+p {
+    text-align: center; /* Centers the text horizontally */
+}
+
+/* Styles for the my-image class */
+.my-image {
+    position: absolute; /* Positions the element relative to its nearest positioned ancestor */
+    top: 33%; /* Moves the element 33% from the top */
+    left: 50%; /* Centers the element horizontally at 50% of the container */
+    transform: translateX(-50%); /* Adjusts the position to center the element precisely */
+    width: 60%; /* Sets the width to 60% of the container */
+    border-radius: 10px; /* Rounds the corners of the element */
+}
+
+/* Styles for the info-box class */
+.info-box {
+    width: 100%; /* Sets the width to 100% of the container */
+    height: 150px; /* Sets the height to 150px */
+    background-color: rgb(36, 93, 149); /* Sets the background color */
+    border: 2px solid darkblue; /* Adds a 2px dark blue border */
+    margin: 20px auto; /* Adds vertical margin and centers the element horizontally */
+}
+
+/* Styles for anchor (link) elements */
+a {
+    text-decoration: none; /* Removes the underline from links */
+    color: rgb(255, 255, 255); /* Sets the link color to white */
+    font-weight: bold; /* Makes the link text bold */
+}
+
+/* Additional styles for the body element */
+body {
+    margin: 0; /* Removes default margin */
+    height: 100vh; /* Sets the height to the full viewport */
+    background: linear-gradient(90deg, #74b8e9, #447cb8, #395aa1); /* Creates a gradient background */
+    background-size: 300% 300%; /* Enlarges the gradient for smooth animation */
+    animation: gradientAnimation 10s ease infinite; /* Animates the gradient */
+}
+
+/* Keyframes for the gradient animation */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%; /* Starts the gradient at the left */
+    }
+    50% {
+        background-position: 100% 50%; /* Moves the gradient to the right */
+    }
+    100% {
+        background-position: 0% 50%; /* Returns the gradient to the left */
+    }
+}
+
+/* Styles for the animated-background class */
+.animated-background {
+    position: absolute; /* Positions the element relative to its nearest positioned ancestor */
+    top: 0; /* Aligns the element to the top */
+    left: 0; /* Aligns the element to the left */
+    width: 100%; /* Sets the width to 100% of the container */
+    height: 100vh; /* Sets the height to the full viewport */
+    z-index: -1; /* Places the element behind other content */
+    overflow: hidden; /* Hides any overflowing content */
+}
